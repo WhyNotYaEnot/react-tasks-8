@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import DateTime from './DateTime';
-import Logo from './Logo'; // Make sure to import the Logo component
+import Logo from './Logo';
 import './Header.css';
 
 const Header = ({ title }) => {
@@ -9,7 +9,7 @@ const Header = ({ title }) => {
 
   return (
     <header className="header">
-      <Logo /> {/* Use the Logo component here */}
+      <Logo />
       <h1>{title}</h1>
       <div className="date-time">
         <DateTime />

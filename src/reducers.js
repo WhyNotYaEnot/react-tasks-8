@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
 
-const imageReducer = (state = '/fish-spinning.gif', action) => {
+const imageReducer = (state = '/monke.gif', action) => {
   switch (action.type) {
     case 'SET_LOGO_IMAGE':
       return action.payload;

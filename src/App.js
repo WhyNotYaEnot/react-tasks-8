@@ -20,7 +20,7 @@ function App() {
     <Provider store={store}>
       <Router>
         <div className="app">
-          <Header title="Alex" />
+          <Header title="Title" />
           <div className="main-content">
             <SideBar title="SideBar" menuList={menuList} />
             <Content title="Content"></Content>
